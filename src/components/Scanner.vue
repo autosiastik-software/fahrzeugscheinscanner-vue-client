@@ -399,9 +399,9 @@ export default {
 					that.error = true;
 					that.showResults = false;
 
-					if (error.response.status === 401) {
+					if (error?.response?.status === 401) {
 						that.errorMsg = 'Access-Key ist ungültig'
-					} else if (error.response.status === 415) {
+					} else if (error?.response?.status === 415) {
 						that.errorMsg = 'Dateiformat nicht unterstützt'
 					} else {
 						that.errorMsg = 'Server error'

@@ -1,4 +1,6 @@
-# fahrzeugscheinscanner-demo-web-app
+# Fahrzeugscheinscanner Vue Client  
+  
+Short demo on how to use the Fahrzeugscheinscanner API with Vue.
 
 ## Project setup
 ```
